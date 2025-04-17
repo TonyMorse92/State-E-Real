@@ -9,6 +9,6 @@ class House:
 
 
 for _ in range(0,10):
-	t = House(rand.uniform(100_000,150_000), rand.choice([1,2,4]), rand.choice([1,2]))
+	home = House(rand.uniform(100_000,150_000), rand.choice([1,2,4]), rand.choice([1,2]))
 
-	print(f"The price is: ${t.price}\nThere are {t.num_bedrooms} bedroom(s)\nAnd it is a {t.num_stories} story house.\n")
+	print(f"The price is: ${home.price}\nThere are {home.num_bedrooms} bedroom(s)\nAnd it is a {home.num_stories} story house.\n")
